@@ -1,0 +1,32 @@
+html {
+    width: 960px;
+    margin: 0px auto;
+    font-family: helvetica;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+    margin-top: 150px;
+}
+
+    label {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+        #submit_button {
+            display: block;
+            margin-top: 10px;
+            padding: 5px 10px;
+        }
+
+h1 {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 125px;
+}

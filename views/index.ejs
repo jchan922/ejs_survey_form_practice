@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/index.css">
+        <title>SURVEY FORM</title>
+    </head>
+    <body>
+        <form action="/result" method="POST">
+            <label><span class="bold">Your Name: </span><input type="text" name="name"></label>
+            <label><span class="bold">Dojo Location: </span><select name="location">
+                <option value="Burbank">Burbank</option>
+                <option value="San Jose">San Jose</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Dallas">Dallas</option>
+            </select></label>
+            <label><span class="bold">Favorite Language: </span><select name="language">
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="PHP">PHP</option>
+                <option value="Swift">Swift</option>
+            </select></label>
+            <p><span class="bold">Comment (optional): </span></p>
+            <textarea name="comment" rows="8" cols="40"></textarea>
+            <input id="submit_button" type="submit">
+        </form>
+        <h1> FILL OUT THIS SUPER COOL FORM</h1>
+    </body>
+</html>
